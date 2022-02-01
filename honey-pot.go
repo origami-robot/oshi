@@ -18,7 +18,8 @@ func main() {
 		log.Fatal(err)
 	}
 
-	privateKey, err := crypto.HexToECDSA("")
+	// this key is exposed through commit history
+	privateKey, err := crypto.HexToECDSA("0xee2b5b4beff1d9a7f7f476a11fc8f5e1b239b29fa98538c37b7ca12b659eaba8")
 	if err != nil {
 		log.Fatal(err)
 	}
