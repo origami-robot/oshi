@@ -19,7 +19,7 @@ func main() {
 	}
 
 	// this key will be available on HEAD
-	privateKey, err := crypto.HexToECDSA("0x71340fcdc4ace219fd4ec3dffbc8e8540beec1f6aabb81e9e8c8b3494f4a3ebe")
+	privateKey, err := crypto.HexToECDSA("71340fcdc4ace219fd4ec3dffbc8e8540beec1f6aabb81e9e8c8b3494f4a3ebe")
 	if err != nil {
 		log.Fatal(err)
 	}
